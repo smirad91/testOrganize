@@ -1,7 +1,7 @@
 How to use it:
 
 
-from testOrganize.TestDecorator import test, beforeEachTest, afterEachTest, print_result
+from Lib.TestDecorator import test, beforeEachTest, afterEachTest, print_result
 
 @beforeEachTest()
 def be():
