@@ -101,3 +101,6 @@ def afterEachTest():
 
 def print_result():
     CMDLog.print_result()
+
+def print_html(suite, url):
+    CMDLog.log_html(suite, url)
