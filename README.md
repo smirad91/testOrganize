@@ -21,11 +21,13 @@ def test2():
 print("test")
 
 print_result()
+print_html("LoginFeature", r"C:\Users\us\Desktop\htmlLogs\testOrganizer.html")
 ```
 
 Important notes:
 - beforeEachTest and afterEachTest must be defined first
-- at the end of file print_result() must be called so that result is printed to console
+- print_result() should be called so that result is printed to console (at the end of file)
+- print_html() should be called to print result to html (at the end of file)
 - for sharing variables over functions, python rules are applied
 - code outside of given functions will also be executed as in standard python script
 
@@ -41,3 +43,4 @@ def test1():
     global browser
     browser.get(url)
 ```
+

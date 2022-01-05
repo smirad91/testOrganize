@@ -2,7 +2,7 @@ import traceback
 import time
 from datetime import datetime
 
-from Lib.CMDLog import CMDLog
+from testOrganizer.CMDLog import CMDLog
 
 beforeEach = [lambda: print("fd")]
 afterEach= [lambda: print("fddf")]
